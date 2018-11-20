@@ -14,7 +14,8 @@ public class ArrayListTest {
 
         //printing the array to the console by iterating over it and printing its elements one by one
         for (Integer number : arrayList) {
-            System.out.println(number);
+            String elementNumber = "Element number " + arrayList.get(number-1); //-1 is needed to avoid getting out of bounds
+            System.out.println(elementNumber + " is " + number);
         }
 
         //obtaining elements by their indexes
