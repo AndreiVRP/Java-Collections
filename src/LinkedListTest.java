@@ -19,7 +19,6 @@ public class LinkedListTest {
         measureGetTime(linkedList);
         measureGetTime(arrayList);
 
-
         /*
         USE CASES:
         adding to the end of the list or reading data form the list -> use ArrayList (default choice)
